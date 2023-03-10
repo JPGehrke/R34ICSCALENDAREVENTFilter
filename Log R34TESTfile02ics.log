@@ -1,0 +1,2534 @@
+Array
+(
+    [args] => Array
+        (
+            [ajax] => 
+            [arrayonly] => 
+            [attach] => 
+            [basicauth] => 
+            [color] => 
+            [columnlabels] => 
+            [compact] => 
+            [count] => 0
+            [curlopts] => Array
+                (
+                    [0] => 
+                )
+
+            [currentweek] => 
+            [customoptions] => Array
+                (
+                    [0] => categories=Web STD,St. Josef STD
+                    [1] => categories=Web STD,St. Ansgar
+                    [2] => categories=St. Michael BRV
+                )
+
+            [debug] => 3
+            [description] => TEST CALENDAR
+            [eventdesc] => 1
+            [eventdl] => 
+            [extendmultiday] => 
+            [feedlabel] => 
+            [fixredundantuids] => 
+            [format] => 
+            [formatmonthyear] => F Y
+            [guid] => 
+            [hidealldayindicator] => 
+            [hideprivateevents] => 
+            [hiderecurrence] => 1
+            [hidetimes] => 
+            [legacyparser] => 
+            [legendinline] => 
+            [legendposition] => 
+            [legendstyle] => 
+            [limitdays] => 455
+            [limitdayscustom] => 1
+            [linebreakfix] => 
+            [linktitles] => 
+            [location] => 1
+            [maskinfo] => 
+            [method] => 
+            [monthnav] => 
+            [nolink] => 
+            [nomobile] => 
+            [nomonthheaders] => 
+            [organizer] => 1
+            [pagination] => 
+            [pastdays] => 90
+            [reload] => 1
+            [reverse] => 
+            [sametab] => 
+            [showendtimes] => 1
+            [skip] => 0
+            [skipdomainerrors] => 
+            [skiprecurrence] => 
+            [solidcolors] => 
+            [startdate] => 0
+            [stickymonths] => 1
+            [tablebg] => 
+            [timeformat] => H:i
+            [title] => AAHLGSTD
+            [toggle] => 
+            [tz] => 
+            [url] => https://internet.heiligxxxxx.de/wp-conten/xxxx/yyyy/testfiles/r34testfile02.ics
+            [view] => month
+            [weeknumbers] => 
+            [whitetext] => 
+        )
+
+    [Included date range] => 20221201 to 20240229
+    [https://internet.heiligxxxxx.de/wp-conten/xxxx/yyyy/testfiles/r34testfile02.ics] => Array
+        (
+            [ICS Feed] => DOWNLOAD // VALIDATE
+            [Load status] => Array
+                (
+                    [0] => Attempted to load URL via cURL
+                )
+
+            [cURL info] => Array
+                (
+                    [0] => Array
+                        (
+                            [url] => https://internet.heiligxxxxx.de/wp-conten/xxxx/yyyy/testfiles/r34testfile02.ics
+                            [content_type] => text/calendar
+                            [http_code] => 200
+                            [header_size] => 215
+                            [request_size] => 158
+                            [filetime] => -1
+                            [ssl_verify_result] => 0
+                            [redirect_count] => 0
+                            [total_time] => 0.044076
+                            [namelookup_time] => 0.000578
+                            [connect_time] => 0.001458
+                            [pretransfer_time] => 0.019555
+                            [size_upload] => 0
+                            [size_download] => 8532
+                            [speed_download] => 193909
+                            [speed_upload] => 0
+                            [download_content_length] => 8532
+                            [upload_content_length] => -1
+                            [starttransfer_time] => 0.044043
+                            [redirect_time] => 0
+                            [redirect_url] => 
+                            [primary_ip] => 217.160.0.25
+                            [certinfo] => Array
+                                (
+                                )
+
+                            [primary_port] => 443
+                            [local_ip] => 82.165.81.69
+                            [local_port] => 37654
+                            [http_version] => 3
+                            [protocol] => 2
+                            [ssl_verifyresult] => 0
+                            [scheme] => HTTPS
+                            [appconnect_time_us] => 19372
+                            [connect_time_us] => 1458
+                            [namelookup_time_us] => 578
+                            [pretransfer_time_us] => 19555
+                            [redirect_time_us] => 0
+                            [starttransfer_time_us] => 44043
+                            [total_time_us] => 44076
+                        )
+
+                )
+
+            [URL contents retrieved] => BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hoernerfranzracing/caldav2ics.php
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+DTSTART:19810329T020000
+TZNAME:CEST
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+DTSTART:19961027T030000
+TZNAME:CET
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:36bf8a178746547aa574413d60401ec0c2cc8192
+DTSTAMP:20230307T161314Z
+CREATED:20221220T114016Z
+LAST-MODIFIED:20221220T115226Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Berlin:20230307T190000
+DTEND;TZID=Europe/Berlin:20230307T210000
+ORGANIZER;CN="Stern, Marina";EMAIL=m.sterns@struktur
+ lbe.ekklas.cloud:mailto:m.sterns@nameserver.com
+ATTENDEE;CN=Saal St. Josef STD;CUTYPE=RESOURCE;PARTSTAT=ACCEPTED;ROLE=REQ-P
+ ARTICIPANT;RSVP=FALSE;EMAIL=saal.st.josef@nameserver.de:mailto:saa
+ l.st.josef@nameserver.de
+ATTENDEE;CN="Pawmeier, Johann";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED;ROLE=R
+ EQ-PARTICIPANT;RSVP=FALSE;EMAIL=johann.pawmeier@nameserver.name
+ as.cloud:mailto:johann.pawmeier@nameserver.com
+CLASS:PUBLIC
+STATUS:CONFIRMED
+LOCATION:Saal St. Josef STD
+SUMMARY:KV Sitzung Std
+TRANSP:OPAQUE
+X-CALENDARSERVER-ACCESS:PUBLIC
+CATEGORIES:St. Josef STD
+END:VEVENT
+BEGIN:VEVENT
+UID:2e830926570e82ba9c4722bd8313720d63962d53
+DTSTAMP:20230307T161314Z
+CREATED:20230223T144254Z
+LAST-MODIFIED:20230223T151539Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Berlin:20230314T200000
+DTEND;TZID=Europe/Berlin:20230314T220000
+ORGANIZER;CN="Dammaschke, Marita";EMAIL=m.dammaschke@nameserver.ekklas.cl
+ oud:mailto:m.dammaschke@nameserver.com
+ATTENDEE;CN=Saal St. Josef STD;CUTYPE=RESOURCE;PARTSTAT=ACCEPTED;ROLE=REQ-P
+ ARTICIPANT;RSVP=FALSE;EMAIL=saal.st.josef@nameserver.de:mailto:saa
+ l.st.josef@nameserver.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+LOCATION:Saal St. Josef STD
+SUMMARY:Bandprobe
+TRANSP:OPAQUE
+X-CALENDARSERVER-ACCESS:PUBLIC
+CATEGORIES:Web STD,St. Josef STD
+END:VEVENT
+BEGIN:VEVENT
+UID:c2dd03630d86ed4e671cf5aa4301371c9024341b
+DTSTAMP:20230307T161314Z
+CREATED:20221102T110552Z
+LAST-MODIFIED:20221110T143716Z
+SEQUENCE:2
+DTSTART;VALUE=DATE:20221113
+DTEND;VALUE=DATE:20221114
+ORGANIZER;CN="Stern, Marina";EMAIL=m.sterns@struktur
+ lbe.ekklas.cloud:mailto:m.sterns@nameserver.com
+CLASS:PUBLIC
+STATUS:CONFIRMED
+LOCATION:Kleingruppe nach Absprache
+SUMMARY:1. Treffen EK
+TRANSP:OPAQUE
+X-CALENDARSERVER-ACCESS:PUBLIC
+CATEGORIES:Standort Hl. Geist
+END:VEVENT
+BEGIN:VEVENT
+UID:1aa7305bba99db0ba283a7dbda527d2c8389cf20
+DTSTAMP:20230307T161314Z
+CREATED:20221220T102037Z
+LAST-MODIFIED:20230110T083417Z
+SEQUENCE:4
+DTSTART;TZID=Europe/Berlin:20230113T183000
+DTEND;TZID=Europe/Berlin:20230113T193000
+ORGANIZER;CN="Stern, Marina";EMAIL=m.sterns@struktur
+ lbe.ekklas.cloud:mailto:m.sterns@nameserver.com
+ATTENDEE;CN="Pawmeier, Johann";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED;ROLE=R
+ EQ-PARTICIPANT;RSVP=FALSE;EMAIL=johann.pawmeier@nameserver.name
+ as.cloud:mailto:johann.pawmeier@nameserver.com
+ATTENDEE;CN=Heilig Geist ;CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=REQ-
+ PARTICIPANT;RSVP=FALSE;EMAIL=leitung@nameserver.de:mailto:pfarr
+ buero@nameserver.de
+ATTENDEE;CN=Saal Hl. Geist;CUTYPE=RESOURCE;PARTSTAT=ACCEPTED;ROLE=REQ-PARTI
+ CIPANT;RSVP=FALSE;EMAIL=saal@nameserver.de:mailto:saal@nameserver.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+LOCATION:Saal Hl. Geist
+SUMMARY:KV Stade mit Lotsenteams
+TRANSP:OPAQUE
+X-CALENDARSERVER-ACCESS:PUBLIC
+CATEGORIES:St. Josef STD
+END:VEVENT
+BEGIN:VEVENT
+UID:7ebe3ea0d6b7e69a9a2da1d117cfff1c89101e52
+DTSTAMP:20230307T161314Z
+CREATED:20230223T143948Z
+LAST-MODIFIED:20230227T094642Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Berlin:20230312T110000
+DTEND;TZID=Europe/Berlin:20230312T170000
+ORGANIZER;CN="Dammaschke, Marita";EMAIL=m.dammaschke@nameserver.ekklas.cl
+ oud:mailto:m.dammaschke@nameserver.com
+ATTENDEE;CN=Saal St. Josef STD;CUTYPE=RESOURCE;PARTSTAT=ACCEPTED;ROLE=REQ-P
+ ARTICIPANT;RSVP=FALSE;EMAIL=saal.st.josef@nameserver.de:mailto:saa
+ l.st.josef@nameserver.de
+ATTENDEE;CN="Vust, Martin";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICI
+ PANT;RSVP=FALSE;EMAIL=m.vu@nameserver.com:mailto:m.vu@de
+ name.ekklas.cloud
+CLASS:PUBLIC
+STATUS:CONFIRMED
+LOCATION:Saal St. Josef STD
+SUMMARY:Firmvorbereitung
+TRANSP:OPAQUE
+X-CALENDARSERVER-ACCESS:PUBLIC
+CATEGORIES:Web STD,St. Josef STD
+END:VEVENT
+BEGIN:VEVENT
+UID:1249dabdd24e01f937016f6decc7c38da80717b6
+DTSTAMP:20230307T161314Z
+CREATED:20230223T143431Z
+LAST-MODIFIED:20230228T092152Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Berlin:20230308T123000
+DTEND;TZID=Europe/Berlin:20230308T160000
+ORGANIZER;CN="Dammaschke, Marita";EMAIL=m.dammaschke@nameserver.ekklas.cl
+ oud:mailto:m.dammaschke@nameserver.com
+ATTENDEE;CN=Saal St. Josef STD;CUTYPE=RESOURCE;PARTSTAT=ACCEPTED;ROLE=REQ-P
+ ARTICIPANT;RSVP=FALSE;EMAIL=saal.st.josef@nameserver.de:mailto:saa
+ l.st.josef@nameserver.de
+ATTENDEE;CN="Pawmeier, Johann";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;RO
+ LE=REQ-PARTICIPANT;RSVP=FALSE;EMAIL=johann.pawmeier@nameserver.ecc
+ lesias.cloud:mailto:johann.pawmeier@nameserver.com
+CLASS:PUBLIC
+STATUS:CONFIRMED
+LOCATION:Saal St. Josef STD
+SUMMARY:Kuratoriums-Sitzung
+TRANSP:OPAQUE
+X-CALENDARSERVER-ACCESS:PUBLIC
+CATEGORIES:St. Josef STD
+END:VEVENT
+BEGIN:VEVENT
+UID:493ae96c5efd3faf12192610e42aba13d64b7f5d
+DTSTAMP:20230307T161314Z
+CREATED:20230227T100341Z
+LAST-MODIFIED:20230227T100341Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Berlin:20230311T120000
+DTEND;TZID=Europe/Berlin:20230311T130000
+ORGANIZER;CN="Stern, Marina";EMAIL=m.sterns@struktur
+ lbe.ekklas.cloud:mailto:m.sterns@nameserver.com
+ATTENDEE;CN="Pawmeier, Johann";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;RO
+ LE=REQ-PARTICIPANT;RSVP=FALSE;EMAIL=johann.pawmeier@nameserver.ecc
+ lesias.cloud:mailto:johann.pawmeier@nameserver.com
+ATTENDEE;CN=St. Michael (Bremervörde);CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACT
+ ION;ROLE=REQ-PARTICIPANT;RSVP=FALSE:urn:uuid:
+CLASS:PUBLIC
+STATUS:TENTATIVE
+DESCRIPTION:Urnentrauerfeier\nKontakt Angehöriger Karlman Musterfrau
+ 761-9258657\n0170-9371235
+LOCATION:Friedhof Bremervörde\, Feldstr. 
+SUMMARY:Trauerfeier Marelsa Musterfraz
+TRANSP:OPAQUE
+X-CALENDARSERVER-ACCESS:PUBLIC
+CATEGORIES:St. Michael BRV
+END:VEVENT
+BEGIN:VEVENT
+UID:d534e673372642004b4291af28e247f462dea818
+DTSTAMP:20230307T161314Z
+CREATED:20230301T134849Z
+LAST-MODIFIED:20230301T134849Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Berlin:20230422T090000
+DTEND;TZID=Europe/Berlin:20230422T160000
+ORGANIZER;CN="Dammaschke, Marita";EMAIL=m.dammaschke@nameserver.ekklas.cl
+ oud:mailto:m.dammaschke@nameserver.com
+ATTENDEE;CN=Saal St. Josef STD;CUTYPE=RESOURCE;PARTSTAT=ACCEPTED;ROLE=REQ-P
+ ARTICIPANT;RSVP=FALSE;EMAIL=saal.st.josef@nameserver.de:mailto:saa
+ l.st.josef@nameserver.de
+CLASS:PUBLIC
+STATUS:CONFIRMED
+LOCATION:Saal St. Josef STD
+SUMMARY:Arbeitskreis Liturgie
+TRANSP:OPAQUE
+X-CALENDARSERVER-ACCESS:PUBLIC
+CATEGORIES:St. Josef STD
+END:VEVENT
+BEGIN:VEVENT
+UID:611f9b1b6be691050ddb6995e6f7d932518f06f4
+DTSTAMP:20230307T161314Z
+CREATED:20230208T091546Z
+LAST-MODIFIED:20230208T105353Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Berlin:20230216T111500
+DTEND;TZID=Europe/Berlin:20230216T121500
+ORGANIZER;CN="Stern, Marina";EMAIL=m.sterns@struktur
+ lbe.ekklas.cloud:mailto:m.sterns@nameserver.com
+ATTENDEE;CN="Pawmeier, Johann";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED;ROLE=R
+ EQ-PARTICIPANT;RSVP=FALSE;EMAIL=johann.pawmeier@nameserver.name
+ as.cloud:mailto:johann.pawmeier@nameserver.com
+CLASS:PUBLIC
+STATUS:CONFIRMED
+SUMMARY:Termin Altenheim Std
+TRANSP:OPAQUE
+X-CALENDARSERVER-ACCESS:PUBLIC
+CATEGORIES:St. Josef STD
+END:VEVENT
+BEGIN:VEVENT
+UID:efd9a782709d602210a9d76b4fecc6dc7ba76405
+DTSTAMP:20230307T161314Z
+CREATED:20221220T104323Z
+LAST-MODIFIED:20221220T120616Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Berlin:20230117T183000
+DTEND;TZID=Europe/Berlin:20230117T193000
+ORGANIZER;CN="Stern, Marina";EMAIL=m.sterns@struktur
+ lbe.ekklas.cloud:mailto:m.sterns@nameserver.com
+ATTENDEE;CN="Pawmeier, Johann";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED;ROLE=R
+ EQ-PARTICIPANT;RSVP=FALSE;EMAIL=johann.pawmeier@nameserver.name
+ as.cloud:mailto:johann.pawmeier@nameserver.com
+ATTENDEE;CN="Vust, Martin";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICI
+ PANT;RSVP=FALSE;EMAIL=m.vu@nameserver.com:mailto:m.vu@de
+ name.ekklas.cloud
+CLASS:PUBLIC
+STATUS:CONFIRMED
+LOCATION:unbekannt
+SUMMARY:ACK Stade
+TRANSP:OPAQUE
+X-CALENDARSERVER-ACCESS:PUBLIC
+CATEGORIES:Standort Hl. Geist
+END:VEVENT
+END:VCALENDAR
+
+            [Calendar name] => 
+            [Calendar description] => 
+            [Calendar time zone] => Europe/Berlin
+            [Default time zone] => Europe/Berlin
+            [Parsed date range] => 2022/10/11 to 2024/08/06
+            [Filter days after] => 514
+            [Filter days before] => 150
+            [ICS Parser Data] => Array
+                (
+                    [0] => R34ICS_ICal\Event Object
+                        (
+                            [summary] => 1. Treffen EK
+                            [dtstart] => 20221113
+                            [dtend] => 20221114
+                            [duration] => 
+                            [dtstamp] => 20230307T161314Z
+                            [dtstart_tz] => 20221113T000000
+                            [dtend_tz] => 20221114T000000
+                            [uid] => c2dd03630d86ed4e671cf5aa4301371c9024341b
+                            [created] => 20221102T110552Z
+                            [last_modified] => 20221110T143716Z
+                            [description] => 
+                            [location] => Kleingruppe nach Absprache
+                            [sequence] => 2
+                            [status] => CONFIRMED
+                            [transp] => OPAQUE
+                            [organizer] => mailto:m.sterns@nameserver.com
+                            [attendee] => 
+                            [additionalProperties:R34ICS_ICal\Event:private] => Array
+                                (
+                                    [uid_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => c2dd03630d86ed4e671cf5aa4301371c9024341b
+                                        )
+
+                                    [dtstamp_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230307T161314Z
+                                        )
+
+                                    [created_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20221102T110552Z
+                                        )
+
+                                    [last_modified_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20221110T143716Z
+                                        )
+
+                                    [sequence_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 2
+                                        )
+
+                                    [dtstart_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [VALUE] => DATE
+                                                )
+
+                                            [1] => 20221113
+                                            [2] => 1668294000
+                                            [3] => 20221113
+                                        )
+
+                                    [dtend_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [VALUE] => DATE
+                                                )
+
+                                            [1] => 20221114
+                                            [2] => 1668380400
+                                            [3] => 20221114
+                                        )
+
+                                    [organizer_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [CN] => Stern, Marina
+                                                    [EMAIL] => m.sterns@strukturlbe.ekklas.cloud
+                                                )
+
+                                            [1] => mailto:m.sterns@nameserver.com
+                                        )
+
+                                    [class_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => PUBLIC
+                                        )
+
+                                    [class] => PUBLIC
+                                    [status_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => CONFIRMED
+                                        )
+
+                                    [location_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => Kleingruppe nach Absprache
+                                        )
+
+                                    [summary_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 1. Treffen EK
+                                        )
+
+                                    [transp_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => OPAQUE
+                                        )
+
+                                    [x_calendarserver_access_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => PUBLIC
+                                        )
+
+                                    [x_calendarserver_access] => PUBLIC
+                                    [categories_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => Standort Hl. Geist
+                                        )
+
+                                    [categories] => Standort Hl. Geist
+                                )
+
+                        )
+
+                    [1] => R34ICS_ICal\Event Object
+                        (
+                            [summary] => KV Stade mit Lotsenteams
+                            [dtstart] => 20230113T183000
+                            [dtend] => 20230113T193000
+                            [duration] => 
+                            [dtstamp] => 20230307T161314Z
+                            [dtstart_tz] => 20230113T183000
+                            [dtend_tz] => 20230113T193000
+                            [uid] => 1aa7305bba99db0ba283a7dbda527d2c8389cf20
+                            [created] => 20221220T102037Z
+                            [last_modified] => 20230110T083417Z
+                            [description] => 
+                            [location] => Saal Hl. Geist
+                            [sequence] => 4
+                            [status] => CONFIRMED
+                            [transp] => OPAQUE
+                            [organizer] => mailto:m.sterns@nameserver.com
+                            [attendee] => mailto:johann.pawmeier@nameserver.com,mailto:pfarrbuero@nameserver.de,mailto:saal@nameserver.de
+                            [additionalProperties:R34ICS_ICal\Event:private] => Array
+                                (
+                                    [uid_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 1aa7305bba99db0ba283a7dbda527d2c8389cf20
+                                        )
+
+                                    [dtstamp_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230307T161314Z
+                                        )
+
+                                    [created_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20221220T102037Z
+                                        )
+
+                                    [last_modified_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230110T083417Z
+                                        )
+
+                                    [sequence_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 4
+                                        )
+
+                                    [dtstart_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [TZID] => Europe/Berlin
+                                                )
+
+                                            [1] => 20230113T183000
+                                            [2] => 1673631000
+                                            [3] => TZID=Europe/Berlin:20230113T183000
+                                        )
+
+                                    [dtend_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [TZID] => Europe/Berlin
+                                                )
+
+                                            [1] => 20230113T193000
+                                            [2] => 1673634600
+                                            [3] => TZID=Europe/Berlin:20230113T193000
+                                        )
+
+                                    [organizer_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [CN] => Stern, Marina
+                                                    [EMAIL] => m.sterns@strukturlbe.ekklas.cloud
+                                                )
+
+                                            [1] => mailto:m.sterns@nameserver.com
+                                        )
+
+                                    [attendee_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [CN] => Pawmeier, Johann
+                                                    [CUTYPE] => INDIVIDUAL
+                                                    [PARTSTAT] => ACCEPTED
+                                                    [ROLE] => REQ-PARTICIPANT
+                                                    [RSVP] => FALSE
+                                                    [EMAIL] => johann.pawmeier@nameserver.nameas.cloud
+                                                )
+
+                                            [1] => mailto:johann.pawmeier@nameserver.com
+                                            [2] => Array
+                                                (
+                                                    [CN] => Heilig Geist
+                                                    [CUTYPE] => INDIVIDUAL
+                                                    [PARTSTAT] => NEEDS-ACTION
+                                                    [ROLE] => REQ-PARTICIPANT
+                                                    [RSVP] => FALSE
+                                                    [EMAIL] => leitung@nameserver.de
+                                                )
+
+                                            [3] => mailto:pfarrbuero@nameserver.de
+                                            [4] => Array
+                                                (
+                                                    [CN] => Saal Hl. Geist
+                                                    [CUTYPE] => RESOURCE
+                                                    [PARTSTAT] => ACCEPTED
+                                                    [ROLE] => REQ-PARTICIPANT
+                                                    [RSVP] => FALSE
+                                                    [EMAIL] => saal@nameserver.de
+                                                )
+
+                                            [5] => mailto:saal@nameserver.de
+                                        )
+
+                                    [class_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => PUBLIC
+                                        )
+
+                                    [class] => PUBLIC
+                                    [status_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => CONFIRMED
+                                        )
+
+                                    [location_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => Saal Hl. Geist
+                                        )
+
+                                    [summary_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => KV Stade mit Lotsenteams
+                                        )
+
+                                    [transp_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => OPAQUE
+                                        )
+
+                                    [x_calendarserver_access_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => PUBLIC
+                                        )
+
+                                    [x_calendarserver_access] => PUBLIC
+                                    [categories_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => St. Josef STD
+                                        )
+
+                                    [categories] => St. Josef STD
+                                )
+
+                        )
+
+                    [2] => R34ICS_ICal\Event Object
+                        (
+                            [summary] => ACK Stade
+                            [dtstart] => 20230117T183000
+                            [dtend] => 20230117T193000
+                            [duration] => 
+                            [dtstamp] => 20230307T161314Z
+                            [dtstart_tz] => 20230117T183000
+                            [dtend_tz] => 20230117T193000
+                            [uid] => efd9a782709d602210a9d76b4fecc6dc7ba76405
+                            [created] => 20221220T104323Z
+                            [last_modified] => 20221220T120616Z
+                            [description] => 
+                            [location] => unbekannt
+                            [sequence] => 3
+                            [status] => CONFIRMED
+                            [transp] => OPAQUE
+                            [organizer] => mailto:m.sterns@nameserver.com
+                            [attendee] => mailto:johann.pawmeier@nameserver.com,mailto:m.vu@dename.ekklas.cloud
+                            [additionalProperties:R34ICS_ICal\Event:private] => Array
+                                (
+                                    [uid_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => efd9a782709d602210a9d76b4fecc6dc7ba76405
+                                        )
+
+                                    [dtstamp_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230307T161314Z
+                                        )
+
+                                    [created_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20221220T104323Z
+                                        )
+
+                                    [last_modified_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20221220T120616Z
+                                        )
+
+                                    [sequence_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 3
+                                        )
+
+                                    [dtstart_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [TZID] => Europe/Berlin
+                                                )
+
+                                            [1] => 20230117T183000
+                                            [2] => 1673976600
+                                            [3] => TZID=Europe/Berlin:20230117T183000
+                                        )
+
+                                    [dtend_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [TZID] => Europe/Berlin
+                                                )
+
+                                            [1] => 20230117T193000
+                                            [2] => 1673980200
+                                            [3] => TZID=Europe/Berlin:20230117T193000
+                                        )
+
+                                    [organizer_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [CN] => Stern, Marina
+                                                    [EMAIL] => m.sterns@strukturlbe.ekklas.cloud
+                                                )
+
+                                            [1] => mailto:m.sterns@nameserver.com
+                                        )
+
+                                    [attendee_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [CN] => Pawmeier, Johann
+                                                    [CUTYPE] => INDIVIDUAL
+                                                    [PARTSTAT] => ACCEPTED
+                                                    [ROLE] => REQ-PARTICIPANT
+                                                    [RSVP] => FALSE
+                                                    [EMAIL] => johann.pawmeier@nameserver.nameas.cloud
+                                                )
+
+                                            [1] => mailto:johann.pawmeier@nameserver.com
+                                            [2] => Array
+                                                (
+                                                    [CN] => Vust, Martin
+                                                    [CUTYPE] => INDIVIDUAL
+                                                    [PARTSTAT] => ACCEPTED
+                                                    [ROLE] => REQ-PARTICIPANT
+                                                    [RSVP] => FALSE
+                                                    [EMAIL] => m.vu@nameserver.com
+                                                )
+
+                                            [3] => mailto:m.vu@dename.ekklas.cloud
+                                        )
+
+                                    [class_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => PUBLIC
+                                        )
+
+                                    [class] => PUBLIC
+                                    [status_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => CONFIRMED
+                                        )
+
+                                    [location_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => unbekannt
+                                        )
+
+                                    [summary_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => ACK Stade
+                                        )
+
+                                    [transp_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => OPAQUE
+                                        )
+
+                                    [x_calendarserver_access_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => PUBLIC
+                                        )
+
+                                    [x_calendarserver_access] => PUBLIC
+                                    [categories_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => Standort Hl. Geist
+                                        )
+
+                                    [categories] => Standort Hl. Geist
+                                )
+
+                        )
+
+                    [3] => R34ICS_ICal\Event Object
+                        (
+                            [summary] => Termin Altenheim Std
+                            [dtstart] => 20230216T111500
+                            [dtend] => 20230216T121500
+                            [duration] => 
+                            [dtstamp] => 20230307T161314Z
+                            [dtstart_tz] => 20230216T111500
+                            [dtend_tz] => 20230216T121500
+                            [uid] => 611f9b1b6be691050ddb6995e6f7d932518f06f4
+                            [created] => 20230208T091546Z
+                            [last_modified] => 20230208T105353Z
+                            [description] => 
+                            [location] => 
+                            [sequence] => 2
+                            [status] => CONFIRMED
+                            [transp] => OPAQUE
+                            [organizer] => mailto:m.sterns@nameserver.com
+                            [attendee] => mailto:johann.pawmeier@nameserver.com
+                            [additionalProperties:R34ICS_ICal\Event:private] => Array
+                                (
+                                    [uid_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 611f9b1b6be691050ddb6995e6f7d932518f06f4
+                                        )
+
+                                    [dtstamp_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230307T161314Z
+                                        )
+
+                                    [created_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230208T091546Z
+                                        )
+
+                                    [last_modified_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230208T105353Z
+                                        )
+
+                                    [sequence_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 2
+                                        )
+
+                                    [dtstart_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [TZID] => Europe/Berlin
+                                                )
+
+                                            [1] => 20230216T111500
+                                            [2] => 1676542500
+                                            [3] => TZID=Europe/Berlin:20230216T111500
+                                        )
+
+                                    [dtend_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [TZID] => Europe/Berlin
+                                                )
+
+                                            [1] => 20230216T121500
+                                            [2] => 1676546100
+                                            [3] => TZID=Europe/Berlin:20230216T121500
+                                        )
+
+                                    [organizer_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [CN] => Stern, Marina
+                                                    [EMAIL] => m.sterns@strukturlbe.ekklas.cloud
+                                                )
+
+                                            [1] => mailto:m.sterns@nameserver.com
+                                        )
+
+                                    [attendee_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [CN] => Pawmeier, Johann
+                                                    [CUTYPE] => INDIVIDUAL
+                                                    [PARTSTAT] => ACCEPTED
+                                                    [ROLE] => REQ-PARTICIPANT
+                                                    [RSVP] => FALSE
+                                                    [EMAIL] => johann.pawmeier@nameserver.nameas.cloud
+                                                )
+
+                                            [1] => mailto:johann.pawmeier@nameserver.com
+                                        )
+
+                                    [class_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => PUBLIC
+                                        )
+
+                                    [class] => PUBLIC
+                                    [status_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => CONFIRMED
+                                        )
+
+                                    [summary_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => Termin Altenheim Std
+                                        )
+
+                                    [transp_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => OPAQUE
+                                        )
+
+                                    [x_calendarserver_access_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => PUBLIC
+                                        )
+
+                                    [x_calendarserver_access] => PUBLIC
+                                    [categories_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => St. Josef STD
+                                        )
+
+                                    [categories] => St. Josef STD
+                                )
+
+                        )
+
+                    [4] => R34ICS_ICal\Event Object
+                        (
+                            [summary] => KV Sitzung Std
+                            [dtstart] => 20230307T190000
+                            [dtend] => 20230307T210000
+                            [duration] => 
+                            [dtstamp] => 20230307T161314Z
+                            [dtstart_tz] => 20230307T190000
+                            [dtend_tz] => 20230307T210000
+                            [uid] => 36bf8a178746547aa574413d60401ec0c2cc8192
+                            [created] => 20221220T114016Z
+                            [last_modified] => 20221220T115226Z
+                            [description] => 
+                            [location] => Saal St. Josef STD
+                            [sequence] => 2
+                            [status] => CONFIRMED
+                            [transp] => OPAQUE
+                            [organizer] => mailto:m.sterns@nameserver.com
+                            [attendee] => mailto:saal.st.josef@nameserver.de,mailto:johann.pawmeier@nameserver.com
+                            [additionalProperties:R34ICS_ICal\Event:private] => Array
+                                (
+                                    [uid_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 36bf8a178746547aa574413d60401ec0c2cc8192
+                                        )
+
+                                    [dtstamp_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230307T161314Z
+                                        )
+
+                                    [created_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20221220T114016Z
+                                        )
+
+                                    [last_modified_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20221220T115226Z
+                                        )
+
+                                    [sequence_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 2
+                                        )
+
+                                    [dtstart_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [TZID] => Europe/Berlin
+                                                )
+
+                                            [1] => 20230307T190000
+                                            [2] => 1678212000
+                                            [3] => TZID=Europe/Berlin:20230307T190000
+                                        )
+
+                                    [dtend_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [TZID] => Europe/Berlin
+                                                )
+
+                                            [1] => 20230307T210000
+                                            [2] => 1678219200
+                                            [3] => TZID=Europe/Berlin:20230307T210000
+                                        )
+
+                                    [organizer_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [CN] => Stern, Marina
+                                                    [EMAIL] => m.sterns@strukturlbe.ekklas.cloud
+                                                )
+
+                                            [1] => mailto:m.sterns@nameserver.com
+                                        )
+
+                                    [attendee_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [CN] => Saal St. Josef STD
+                                                    [CUTYPE] => RESOURCE
+                                                    [PARTSTAT] => ACCEPTED
+                                                    [ROLE] => REQ-PARTICIPANT
+                                                    [RSVP] => FALSE
+                                                    [EMAIL] => saal.st.josef@nameserver.de
+                                                )
+
+                                            [1] => mailto:saal.st.josef@nameserver.de
+                                            [2] => Array
+                                                (
+                                                    [CN] => Pawmeier, Johann
+                                                    [CUTYPE] => INDIVIDUAL
+                                                    [PARTSTAT] => ACCEPTED
+                                                    [ROLE] => REQ-PARTICIPANT
+                                                    [RSVP] => FALSE
+                                                    [EMAIL] => johann.pawmeier@nameserver.nameas.cloud
+                                                )
+
+                                            [3] => mailto:johann.pawmeier@nameserver.com
+                                        )
+
+                                    [class_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => PUBLIC
+                                        )
+
+                                    [class] => PUBLIC
+                                    [status_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => CONFIRMED
+                                        )
+
+                                    [location_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => Saal St. Josef STD
+                                        )
+
+                                    [summary_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => KV Sitzung Std
+                                        )
+
+                                    [transp_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => OPAQUE
+                                        )
+
+                                    [x_calendarserver_access_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => PUBLIC
+                                        )
+
+                                    [x_calendarserver_access] => PUBLIC
+                                    [categories_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => St. Josef STD
+                                        )
+
+                                    [categories] => St. Josef STD
+                                )
+
+                        )
+
+                    [5] => R34ICS_ICal\Event Object
+                        (
+                            [summary] => Kuratoriums-Sitzung
+                            [dtstart] => 20230308T123000
+                            [dtend] => 20230308T160000
+                            [duration] => 
+                            [dtstamp] => 20230307T161314Z
+                            [dtstart_tz] => 20230308T123000
+                            [dtend_tz] => 20230308T160000
+                            [uid] => 1249dabdd24e01f937016f6decc7c38da80717b6
+                            [created] => 20230223T143431Z
+                            [last_modified] => 20230228T092152Z
+                            [description] => 
+                            [location] => Saal St. Josef STD
+                            [sequence] => 2
+                            [status] => CONFIRMED
+                            [transp] => OPAQUE
+                            [organizer] => mailto:m.dammaschke@nameserver.com
+                            [attendee] => mailto:saal.st.josef@nameserver.de,mailto:johann.pawmeier@nameserver.com
+                            [additionalProperties:R34ICS_ICal\Event:private] => Array
+                                (
+                                    [uid_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 1249dabdd24e01f937016f6decc7c38da80717b6
+                                        )
+
+                                    [dtstamp_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230307T161314Z
+                                        )
+
+                                    [created_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230223T143431Z
+                                        )
+
+                                    [last_modified_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230228T092152Z
+                                        )
+
+                                    [sequence_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 2
+                                        )
+
+                                    [dtstart_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [TZID] => Europe/Berlin
+                                                )
+
+                                            [1] => 20230308T123000
+                                            [2] => 1678275000
+                                            [3] => TZID=Europe/Berlin:20230308T123000
+                                        )
+
+                                    [dtend_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [TZID] => Europe/Berlin
+                                                )
+
+                                            [1] => 20230308T160000
+                                            [2] => 1678287600
+                                            [3] => TZID=Europe/Berlin:20230308T160000
+                                        )
+
+                                    [organizer_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [CN] => Dammaschke, Marita
+                                                    [EMAIL] => m.dammaschke@nameserver.ekklas.cloud
+                                                )
+
+                                            [1] => mailto:m.dammaschke@nameserver.com
+                                        )
+
+                                    [attendee_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [CN] => Saal St. Josef STD
+                                                    [CUTYPE] => RESOURCE
+                                                    [PARTSTAT] => ACCEPTED
+                                                    [ROLE] => REQ-PARTICIPANT
+                                                    [RSVP] => FALSE
+                                                    [EMAIL] => saal.st.josef@nameserver.de
+                                                )
+
+                                            [1] => mailto:saal.st.josef@nameserver.de
+                                            [2] => Array
+                                                (
+                                                    [CN] => Pawmeier, Johann
+                                                    [CUTYPE] => INDIVIDUAL
+                                                    [PARTSTAT] => NEEDS-ACTION
+                                                    [ROLE] => REQ-PARTICIPANT
+                                                    [RSVP] => FALSE
+                                                    [EMAIL] => johann.pawmeier@nameserver.ecclesias.cloud
+                                                )
+
+                                            [3] => mailto:johann.pawmeier@nameserver.com
+                                        )
+
+                                    [class_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => PUBLIC
+                                        )
+
+                                    [class] => PUBLIC
+                                    [status_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => CONFIRMED
+                                        )
+
+                                    [location_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => Saal St. Josef STD
+                                        )
+
+                                    [summary_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => Kuratoriums-Sitzung
+                                        )
+
+                                    [transp_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => OPAQUE
+                                        )
+
+                                    [x_calendarserver_access_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => PUBLIC
+                                        )
+
+                                    [x_calendarserver_access] => PUBLIC
+                                    [categories_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => St. Josef STD
+                                        )
+
+                                    [categories] => St. Josef STD
+                                )
+
+                        )
+
+                    [6] => R34ICS_ICal\Event Object
+                        (
+                            [summary] => Trauerfeier Marelsa Musterfraz
+                            [dtstart] => 20230311T120000
+                            [dtend] => 20230311T130000
+                            [duration] => 
+                            [dtstamp] => 20230307T161314Z
+                            [dtstart_tz] => 20230311T120000
+                            [dtend_tz] => 20230311T130000
+                            [uid] => 493ae96c5efd3faf12192610e42aba13d64b7f5d
+                            [created] => 20230227T100341Z
+                            [last_modified] => 20230227T100341Z
+                            [description] => Urnentrauerfeier
+Kontakt Angehöriger Karlman Musterfrau761-9258657
+0170-9371235
+                            [location] => Friedhof Bremervörde, Feldstr.
+                            [sequence] => 1
+                            [status] => TENTATIVE
+                            [transp] => OPAQUE
+                            [organizer] => mailto:m.sterns@nameserver.com
+                            [attendee] => mailto:johann.pawmeier@nameserver.com,urn:uuid:
+                            [additionalProperties:R34ICS_ICal\Event:private] => Array
+                                (
+                                    [uid_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 493ae96c5efd3faf12192610e42aba13d64b7f5d
+                                        )
+
+                                    [dtstamp_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230307T161314Z
+                                        )
+
+                                    [created_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230227T100341Z
+                                        )
+
+                                    [last_modified_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230227T100341Z
+                                        )
+
+                                    [sequence_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 1
+                                        )
+
+                                    [dtstart_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [TZID] => Europe/Berlin
+                                                )
+
+                                            [1] => 20230311T120000
+                                            [2] => 1678532400
+                                            [3] => TZID=Europe/Berlin:20230311T120000
+                                        )
+
+                                    [dtend_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [TZID] => Europe/Berlin
+                                                )
+
+                                            [1] => 20230311T130000
+                                            [2] => 1678536000
+                                            [3] => TZID=Europe/Berlin:20230311T130000
+                                        )
+
+                                    [organizer_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [CN] => Stern, Marina
+                                                    [EMAIL] => m.sterns@strukturlbe.ekklas.cloud
+                                                )
+
+                                            [1] => mailto:m.sterns@nameserver.com
+                                        )
+
+                                    [attendee_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [CN] => Pawmeier, Johann
+                                                    [CUTYPE] => INDIVIDUAL
+                                                    [PARTSTAT] => NEEDS-ACTION
+                                                    [ROLE] => REQ-PARTICIPANT
+                                                    [RSVP] => FALSE
+                                                    [EMAIL] => johann.pawmeier@nameserver.ecclesias.cloud
+                                                )
+
+                                            [1] => mailto:johann.pawmeier@nameserver.com
+                                            [2] => Array
+                                                (
+                                                    [CN] => St. Michael (Bremervörde)
+                                                    [CUTYPE] => INDIVIDUAL
+                                                    [PARTSTAT] => NEEDS-ACTION
+                                                    [ROLE] => REQ-PARTICIPANT
+                                                    [RSVP] => FALSE
+                                                )
+
+                                            [3] => urn:uuid:
+                                        )
+
+                                    [class_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => PUBLIC
+                                        )
+
+                                    [class] => PUBLIC
+                                    [status_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => TENTATIVE
+                                        )
+
+                                    [description_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => Urnentrauerfeier
+Kontakt Angehöriger Karlman Musterfrau761-9258657
+                           )
+
+                                    [location_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => Friedhof Bremervörde, Feldstr.
+                                        )
+
+                                    [summary_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => Trauerfeier Marelsa Musterfraz
+                                        )
+
+                                    [transp_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => OPAQUE
+                                        )
+
+                                    [x_calendarserver_access_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => PUBLIC
+                                        )
+
+                                    [x_calendarserver_access] => PUBLIC
+                                    [categories_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => St. Michael BRV
+                                        )
+
+                                    [categories] => St. Michael BRV
+                                )
+
+                        )
+
+                    [7] => R34ICS_ICal\Event Object
+                        (
+                            [summary] => Firmvorbereitung
+                            [dtstart] => 20230312T110000
+                            [dtend] => 20230312T170000
+                            [duration] => 
+                            [dtstamp] => 20230307T161314Z
+                            [dtstart_tz] => 20230312T110000
+                            [dtend_tz] => 20230312T170000
+                            [uid] => 7ebe3ea0d6b7e69a9a2da1d117cfff1c89101e52
+                            [created] => 20230223T143948Z
+                            [last_modified] => 20230227T094642Z
+                            [description] => 
+                            [location] => Saal St. Josef STD
+                            [sequence] => 3
+                            [status] => CONFIRMED
+                            [transp] => OPAQUE
+                            [organizer] => mailto:m.dammaschke@nameserver.com
+                            [attendee] => mailto:saal.st.josef@nameserver.de,mailto:m.vu@dename.ekklas.cloud
+                            [additionalProperties:R34ICS_ICal\Event:private] => Array
+                                (
+                                    [uid_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 7ebe3ea0d6b7e69a9a2da1d117cfff1c89101e52
+                                        )
+
+                                    [dtstamp_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230307T161314Z
+                                        )
+
+                                    [created_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230223T143948Z
+                                        )
+
+                                    [last_modified_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230227T094642Z
+                                        )
+
+                                    [sequence_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 3
+                                        )
+
+                                    [dtstart_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [TZID] => Europe/Berlin
+                                                )
+
+                                            [1] => 20230312T110000
+                                            [2] => 1678615200
+                                            [3] => TZID=Europe/Berlin:20230312T110000
+                                        )
+
+                                    [dtend_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [TZID] => Europe/Berlin
+                                                )
+
+                                            [1] => 20230312T170000
+                                            [2] => 1678636800
+                                            [3] => TZID=Europe/Berlin:20230312T170000
+                                        )
+
+                                    [organizer_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [CN] => Dammaschke, Marita
+                                                    [EMAIL] => m.dammaschke@nameserver.ekklas.cloud
+                                                )
+
+                                            [1] => mailto:m.dammaschke@nameserver.com
+                                        )
+
+                                    [attendee_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [CN] => Saal St. Josef STD
+                                                    [CUTYPE] => RESOURCE
+                                                    [PARTSTAT] => ACCEPTED
+                                                    [ROLE] => REQ-PARTICIPANT
+                                                    [RSVP] => FALSE
+                                                    [EMAIL] => saal.st.josef@nameserver.de
+                                                )
+
+                                            [1] => mailto:saal.st.josef@nameserver.de
+                                            [2] => Array
+                                                (
+                                                    [CN] => Vust, Martin
+                                                    [CUTYPE] => INDIVIDUAL
+                                                    [PARTSTAT] => ACCEPTED
+                                                    [ROLE] => REQ-PARTICIPANT
+                                                    [RSVP] => FALSE
+                                                    [EMAIL] => m.vu@nameserver.com
+                                                )
+
+                                            [3] => mailto:m.vu@dename.ekklas.cloud
+                                        )
+
+                                    [class_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => PUBLIC
+                                        )
+
+                                    [class] => PUBLIC
+                                    [status_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => CONFIRMED
+                                        )
+
+                                    [location_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => Saal St. Josef STD
+                                        )
+
+                                    [summary_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => Firmvorbereitung
+                                        )
+
+                                    [transp_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => OPAQUE
+                                        )
+
+                                    [x_calendarserver_access_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => PUBLIC
+                                        )
+
+                                    [x_calendarserver_access] => PUBLIC
+                                    [categories_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => Web STD,St. Josef STD
+                                        )
+
+                                    [categories] => Web STD,St. Josef STD
+                                )
+
+                        )
+
+                    [8] => R34ICS_ICal\Event Object
+                        (
+                            [summary] => Bandprobe
+                            [dtstart] => 20230314T200000
+                            [dtend] => 20230314T220000
+                            [duration] => 
+                            [dtstamp] => 20230307T161314Z
+                            [dtstart_tz] => 20230314T200000
+                            [dtend_tz] => 20230314T220000
+                            [uid] => 2e830926570e82ba9c4722bd8313720d63962d53
+                            [created] => 20230223T144254Z
+                            [last_modified] => 20230223T151539Z
+                            [description] => 
+                            [location] => Saal St. Josef STD
+                            [sequence] => 2
+                            [status] => CONFIRMED
+                            [transp] => OPAQUE
+                            [organizer] => mailto:m.dammaschke@nameserver.com
+                            [attendee] => mailto:saal.st.josef@nameserver.de
+                            [additionalProperties:R34ICS_ICal\Event:private] => Array
+                                (
+                                    [uid_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 2e830926570e82ba9c4722bd8313720d63962d53
+                                        )
+
+                                    [dtstamp_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230307T161314Z
+                                        )
+
+                                    [created_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230223T144254Z
+                                        )
+
+                                    [last_modified_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230223T151539Z
+                                        )
+
+                                    [sequence_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 2
+                                        )
+
+                                    [dtstart_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [TZID] => Europe/Berlin
+                                                )
+
+                                            [1] => 20230314T200000
+                                            [2] => 1678820400
+                                            [3] => TZID=Europe/Berlin:20230314T200000
+                                        )
+
+                                    [dtend_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [TZID] => Europe/Berlin
+                                                )
+
+                                            [1] => 20230314T220000
+                                            [2] => 1678827600
+                                            [3] => TZID=Europe/Berlin:20230314T220000
+                                        )
+
+                                    [organizer_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [CN] => Dammaschke, Marita
+                                                    [EMAIL] => m.dammaschke@nameserver.ekklas.cloud
+                                                )
+
+                                            [1] => mailto:m.dammaschke@nameserver.com
+                                        )
+
+                                    [attendee_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [CN] => Saal St. Josef STD
+                                                    [CUTYPE] => RESOURCE
+                                                    [PARTSTAT] => ACCEPTED
+                                                    [ROLE] => REQ-PARTICIPANT
+                                                    [RSVP] => FALSE
+                                                    [EMAIL] => saal.st.josef@nameserver.de
+                                                )
+
+                                            [1] => mailto:saal.st.josef@nameserver.de
+                                        )
+
+                                    [class_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => PUBLIC
+                                        )
+
+                                    [class] => PUBLIC
+                                    [status_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => CONFIRMED
+                                        )
+
+                                    [location_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => Saal St. Josef STD
+                                        )
+
+                                    [summary_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => Bandprobe
+                                        )
+
+                                    [transp_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => OPAQUE
+                                        )
+
+                                    [x_calendarserver_access_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => PUBLIC
+                                        )
+
+                                    [x_calendarserver_access] => PUBLIC
+                                    [categories_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => Web STD,St. Josef STD
+                                        )
+
+                                    [categories] => Web STD,St. Josef STD
+                                )
+
+                        )
+
+                    [9] => R34ICS_ICal\Event Object
+                        (
+                            [summary] => Arbeitskreis Liturgie
+                            [dtstart] => 20230422T090000
+                            [dtend] => 20230422T160000
+                            [duration] => 
+                            [dtstamp] => 20230307T161314Z
+                            [dtstart_tz] => 20230422T090000
+                            [dtend_tz] => 20230422T160000
+                            [uid] => d534e673372642004b4291af28e247f462dea818
+                            [created] => 20230301T134849Z
+                            [last_modified] => 20230301T134849Z
+                            [description] => 
+                            [location] => Saal St. Josef STD
+                            [sequence] => 1
+                            [status] => CONFIRMED
+                            [transp] => OPAQUE
+                            [organizer] => mailto:m.dammaschke@nameserver.com
+                            [attendee] => mailto:saal.st.josef@nameserver.de
+                            [additionalProperties:R34ICS_ICal\Event:private] => Array
+                                (
+                                    [uid_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => d534e673372642004b4291af28e247f462dea818
+                                        )
+
+                                    [dtstamp_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230307T161314Z
+                                        )
+
+                                    [created_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230301T134849Z
+                                        )
+
+                                    [last_modified_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 20230301T134849Z
+                                        )
+
+                                    [sequence_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => 1
+                                        )
+
+                                    [dtstart_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [TZID] => Europe/Berlin
+                                                )
+
+                                            [1] => 20230422T090000
+                                            [2] => 1682146800
+                                            [3] => TZID=Europe/Berlin:20230422T090000
+                                        )
+
+                                    [dtend_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [TZID] => Europe/Berlin
+                                                )
+
+                                            [1] => 20230422T160000
+                                            [2] => 1682172000
+                                            [3] => TZID=Europe/Berlin:20230422T160000
+                                        )
+
+                                    [organizer_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [CN] => Dammaschke, Marita
+                                                    [EMAIL] => m.dammaschke@nameserver.ekklas.cloud
+                                                )
+
+                                            [1] => mailto:m.dammaschke@nameserver.com
+                                        )
+
+                                    [attendee_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [CN] => Saal St. Josef STD
+                                                    [CUTYPE] => RESOURCE
+                                                    [PARTSTAT] => ACCEPTED
+                                                    [ROLE] => REQ-PARTICIPANT
+                                                    [RSVP] => FALSE
+                                                    [EMAIL] => saal.st.josef@nameserver.de
+                                                )
+
+                                            [1] => mailto:saal.st.josef@nameserver.de
+                                        )
+
+                                    [class_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => PUBLIC
+                                        )
+
+                                    [class] => PUBLIC
+                                    [status_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => CONFIRMED
+                                        )
+
+                                    [location_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => Saal St. Josef STD
+                                        )
+
+                                    [summary_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => Arbeitskreis Liturgie
+                                        )
+
+                                    [transp_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => OPAQUE
+                                        )
+
+                                    [x_calendarserver_access_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => PUBLIC
+                                        )
+
+                                    [x_calendarserver_access] => PUBLIC
+                                    [categories_array] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                )
+
+                                            [1] => St. Josef STD
+                                        )
+
+                                    [categories] => St. Josef STD
+                                )
+
+                        )
+
+                )
+
+            [Events parsed] => 10
+        )
+
+    [Peak memory usage] => 90346384
+    [Plugin Data] => Array
+        (
+            [events] => Array
+                (
+                    [2022] => Array
+                        (
+                            [12] => 
+                        )
+
+                    [2023] => Array
+                        (
+                            [01] => 
+                            [02] => 
+                            [03] => Array
+                                (
+                                    [11] => Array
+                                        (
+                                            [t120000] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [attach] => 
+                                                            [categories] => St. Michael BRV
+                                                            [dtend_date] => 20230311
+                                                            [dtend_time] => 130000
+                                                            [dtend] => 20230311T130000
+                                                            [dtstamp] => 20230307T161314Z
+                                                            [dtstart_date] => 20230311
+                                                            [dtstart_time] => 120000
+                                                            [dtstart] => 20230311T120000
+                                                            [eventdesc] => Urnentrauerfeier
+Kontakt Angehöriger Karlman Musterfrau761-9258657
+0170-9371235
+                                                            [feed_key] => 0
+                                                            [label] => Trauerfeier Marelsa Musterfraz
+                                                            [location] => Friedhof Bremervörde, Feldstr.
+                                                            [organizer] => Array
+                                                                (
+                                                                    [0] => Array
+                                                                        (
+                                                                            [CN] => Stern, Marina
+                                                                            [EMAIL] => m.sterns@strukturlbe.ekklas.cloud
+                                                                        )
+
+                                                                    [1] => mailto:m.sterns@nameserver.com
+                                                                )
+
+                                                            [recurrence_id] => 
+                                                            [rrule] => 
+                                                            [sequence] => 1
+                                                            [status] => TENTATIVE
+                                                            [transp] => OPAQUE
+                                                            [uid] => 493ae96c5efd3faf12192610e42aba13d64b7f5d
+                                                            [url] => 
+                                                            [start] => 12:00
+                                                            [end] => 13:00
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [12] => Array
+                                        (
+                                            [t110000] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [attach] => 
+                                                            [categories] => Web STD,St. Josef STD
+                                                            [dtend_date] => 20230312
+                                                            [dtend_time] => 170000
+                                                            [dtend] => 20230312T170000
+                                                            [dtstamp] => 20230307T161314Z
+                                                            [dtstart_date] => 20230312
+                                                            [dtstart_time] => 110000
+                                                            [dtstart] => 20230312T110000
+                                                            [eventdesc] => 
+                                                            [feed_key] => 0
+                                                            [label] => Firmvorbereitung
+                                                            [location] => Saal St. Josef STD
+                                                            [organizer] => Array
+                                                                (
+                                                                    [0] => Array
+                                                                        (
+                                                                            [CN] => Dammaschke, Marita
+                                                                            [EMAIL] => m.dammaschke@nameserver.ekklas.cloud
+                                                                        )
+
+                                                                    [1] => mailto:m.dammaschke@nameserver.com
+                                                                )
+
+                                                            [recurrence_id] => 
+                                                            [rrule] => 
+                                                            [sequence] => 3
+                                                            [status] => CONFIRMED
+                                                            [transp] => OPAQUE
+                                                            [uid] => 7ebe3ea0d6b7e69a9a2da1d117cfff1c89101e52
+                                                            [url] => 
+                                                            [start] => 11:00
+                                                            [end] => 17:00
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [14] => Array
+                                        (
+                                            [t200000] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [attach] => 
+                                                            [categories] => Web STD,St. Josef STD
+                                                            [dtend_date] => 20230314
+                                                            [dtend_time] => 220000
+                                                            [dtend] => 20230314T220000
+                                                            [dtstamp] => 20230307T161314Z
+                                                            [dtstart_date] => 20230314
+                                                            [dtstart_time] => 200000
+                                                            [dtstart] => 20230314T200000
+                                                            [eventdesc] => 
+                                                            [feed_key] => 0
+                                                            [label] => Bandprobe
+                                                            [location] => Saal St. Josef STD
+                                                            [organizer] => Array
+                                                                (
+                                                                    [0] => Array
+                                                                        (
+                                                                            [CN] => Dammaschke, Marita
+                                                                            [EMAIL] => m.dammaschke@nameserver.ekklas.cloud
+                                                                        )
+
+                                                                    [1] => mailto:m.dammaschke@nameserver.com
+                                                                )
+
+                                                            [recurrence_id] => 
+                                                            [rrule] => 
+                                                            [sequence] => 2
+                                                            [status] => CONFIRMED
+                                                            [transp] => OPAQUE
+                                                            [uid] => 2e830926570e82ba9c4722bd8313720d63962d53
+                                                            [url] => 
+                                                            [start] => 20:00
+                                                            [end] => 22:00
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [04] => 
+                            [05] => 
+                            [06] => 
+                            [07] => 
+                            [08] => 
+                            [09] => 
+                            [10] => 
+                            [11] => 
+                            [12] => 
+                        )
+
+                    [2024] => Array
+                        (
+                            [01] => 
+                            [02] => 
+                        )
+
+                )
+
+            [urls] => https://internet.heiligxxxxx.de/wp-conten/xxxx/yyyy/testfiles/r34testfile02.ics
+            [tz] => Europe/Berlin
+            [view] => month
+            [guid] => r640b3f9b0cd7a7f
+            [title] => AAHLGSTD
+            [description] => TEST CALENDAR
+            [colors] => 
+            [tablebg] => 
+            [feed_titles] => Array
+                (
+                    [0] => 
+                )
+
+            [earliest] => 202212
+            [latest] => 202402
+            [timezone] => Array
+                (
+                    [https://internet.heiligxxxxx.de/wp-conten/xxxx/yyyy/testfiles/r34testfile02.ics] => Europe/Berlin
+                )
+
+        )
+
+    [Plugin settings] => Array
+        (
+            [r34ics_feed_urls] => Array
+                (
+                    [r34ics-url-640b35836b9cc6.14190271] => https://internet.heiligxxxxx.de/wp-content/xxxx/yyyy/TestFiles/R34TESTfile.ics
+                    [r34ics-url-640b3e33e1d175.83944985] => https://internet.heiligxxxxx.de/wp-conten/xxxx/yyyy/testfiles/r34testfile02.ics
+                )
+
+            [r34ics_previous_version] => 10.8.5
+            [r34ics_purge_cache] => 
+            [r34ics_transients_expiration] => 3600
+            [r34ics_use_new_defaults_10_6] => 1
+            [r34ics_version] => 10.8.6.1
+        )
+
+)
