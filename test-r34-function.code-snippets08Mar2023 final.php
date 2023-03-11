@@ -22,28 +22,34 @@ function calendar_exclude_event_callback($exclude, $event, $args) {
 
 	$argsres = @$args;
 	foreach ($argsres as $arr_res) {			// loops through the array args provided from ICS_Calendar
-	if (is_array($arr_res) && $arr_res[0]<> "" ) {   	// checks whether $arr_ress is an array and the first element of the $arr_res is NOT empty
-		$val_cnt = count($arr_res);
-		$val_str = $arr_res[0];
-		$index = 0;
-		foreach ($arr_res as $val){  			// loops through inner array $arr_res and reads the content to $val)
-			$index++;
-			$val_len = strlen($val);	
-				if (strlen($val)>0) {
-					$val_sepstr = strpos($val, "=");		//determines the position of the "=" in the string
-					$val_r34val = substr($val, $val_sepstr +1); 	//shows the string without the "=" sign
-					$val_r34key = substr($val,0,$val_sepstr);
-					$res_str = stristr(@$event->$val_r34key,$val_r34val);
- 					if ($res_str == true) {
-						return false;}  	//event is included
-					}
-
-				}	
-			if ($res_str == false) {return true;} 		//event is excluded
-			}
-		}
-
+        if (is_array($arr_res) && $arr_res[0]<> "" ) {   	// checks whether $arr_ress is an array and the first element of the $arr_res is NOT empty
+            $val_cnt = count($arr_res);
+            $val_str = $arr_res[0];
+            //  $index = 0; // wird nicht verwendet -> weglassen WJ
+            $res = false;   // default
+            foreach ($arr_res as $val){  			// loops through inner array $arr_res and reads the content to $val)
+                //  $index++;   // wird nicht verwendet -> weglassen WJ
+                //  $val_len = strlen($val);	// wird nicht verwendet -> weglassen WJ
+                if (strlen($val) > 0) {
+                    $r34pair = explode("=", $val);  // statt der substr() Rechnerei..
+                    if (is_array($r34pair)) {
+                        if (count($r34pair) > 1)   {
+                            $val_r34key = $r34pair[0];
+                            $val_r34val = $r34pair[1];
+                            $res = stristr(@$event->$val_r34key,$val_r34val);
+                            if ($res == true) {
+                                return false;
+                            }  	//event is included
+                        }
+                    }
+                }
+            }
+            return true;    // hier kommt man nur hin, wenn $res == false, also kein Test mehr erforderlich !	
+        }
 	}
+}
 
 // now hook the callback function to the 'example_filter'
 add_filter( 'r34ics_display_calendar_exclude_event', 'calendar_exclude_event_callback', 10, 3 );
+
+?>
