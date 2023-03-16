@@ -13,3 +13,7 @@ For key(n) please use a valid ICS property (e.g. "summary" or "location") and fo
 the ICS property. The current code selects all events where the defined ICS properties in the key(n) meet 
 the defined values in the corrosponding value(n). 
 All other events are excluded and are not published in the calendar!
+
+The file R34TESTfile02.ics shows an ics file example used for the testing of the code. 
+
+The file R34TESTfile02ics.log contains the debug information created by the ICS-Calendar Plugin showing $args and $events using the file R34TESTfile02.ics.
