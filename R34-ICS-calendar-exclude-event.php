@@ -3,7 +3,7 @@
 function calendar_exclude_event_callback($exclude, $event, $args) {
  // make your code do something with the arguments and return something
  /* This version of the procedure is able to replace https://icalfilter.com as an external filter 
- *  selecting events from an ics calendar file. This procedure may be put to work  if required. 
+ *  selecting events from an ics calendar file. This procedure may be put to work if required. 
  *  The procedure allows to select events based on the definition in the short code option "customoptions" 
  *  in the ICS Calendar Plugin from Room 34. 
  *  The following logic must be applied:
@@ -16,21 +16,16 @@ function calendar_exclude_event_callback($exclude, $event, $args) {
  *  All other events are excluded and are not published in the calendar!
 */
 //===============================================================
-// return false;   //if return is false nothing is excluded
-// return true;	//if return is true events are excluded
+// return false;   //if return is false events are included
+// return true;	   //if return is true events are excluded
 //===============================================================
 
 	$argsres = @$args;
 	foreach ($argsres as $arr_res) {			// loops through the array args provided from ICS_Calendar
         if (is_array($arr_res) && $arr_res[0]<> "" ) {   	// checks whether $arr_ress is an array and the first element of the $arr_res is NOT empty
-            $val_cnt = count($arr_res);
-            $val_str = $arr_res[0];
-            //  $index = 0; // wird nicht verwendet -> weglassen WJ
-            $res = false;   // default
+             $res = false;   // default
             foreach ($arr_res as $val){  			// loops through inner array $arr_res and reads the content to $val)
-                //  $index++;   // wird nicht verwendet -> weglassen WJ
-                //  $val_len = strlen($val);	// wird nicht verwendet -> weglassen WJ
-                if (strlen($val) > 0) {
+                 if (strlen($val) > 0) {
                     $r34pair = explode("=", $val);  // statt der substr() Rechnerei..
                     if (is_array($r34pair)) {
                         if (count($r34pair) > 1)   {
@@ -44,7 +39,7 @@ function calendar_exclude_event_callback($exclude, $event, $args) {
                     }
                 }
             }
-            return true;    // hier kommt man nur hin, wenn $res == false, also kein Test mehr erforderlich !	
+            return true;    // $res == false (default value), this line is only reached if $res==false !	
         }
 	}
 }
