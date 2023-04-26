@@ -2,7 +2,7 @@
 r34ics_display_calendar_exclude_event - custom code
 The wordpress plugin ICS_CALENDAR from Room 34 (https://icscalendar.com/) offers several options 
 customising the output for the events of the calendar (see https://icscalendar.com/developer/). 
-The routing "r34ics_display_calendar_exclude_event" provides the option excluding events from the 
+The routine "r34ics_display_calendar_exclude_event" provides the option excluding events from the 
 calendar feed URL based on certain criteria. 
 The actual procedure uses the available short code option "customoptions" in the ICS Calendar Plugin.
 The following logic must be applied:
